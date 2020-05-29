@@ -1,0 +1,1279 @@
+/* -------------------- General Configuration */
+:root
+{
+	--neg_15_5rem: -15.5rem;
+	--neg_2_5rem : -2.5rem;
+	--neg_1rem 	 : -1rem;	/* -18px */
+	--neg_0_7rem : -.7rem;
+	--neg_0_5rem : -.5rem;	/* -8px */
+	--neg_0_4rem : -0.4rem; /* -7px */
+	--neg_0_3rem : -.03rem; /* -5px */
+	--neg_0_2rem : -.3rem;	/* -3px */
+	--neg_0_1rem : -.1rem;	/* -2px) */
+	--neg_0_07rem: -.07rem; /* -1px */
+
+	--0_07rem	: .07rem;	/* 1px */
+
+	--0_1rem	: .1rem;	/* 2px */
+	--0_2rem	: .2rem;	/* 3px */
+	--0_3rem	: .3rem; 	/* 5px */
+	--0_55rem	: .55rem;	/* 8px */
+	--0_7rem	: .7rem;	/* 10px */
+	--0_8rem	: .8rem;
+	--0_9rem	: .9rem; 	/* 15px  */
+
+	--1rem		: 1rem;		/* 18px */
+	--1_1rem	: 1.1rem;
+	--1_2rem	: 1.2rem;
+	--1_3rem	: 1.3rem;	/* 20px */
+	--1_5rem	: 1.5rem;	/* 25px */
+	--2rem		: 2rem;
+	--2_2rem	: 2.2rem;	/* 30px */
+	--2_4rem	: 2.4rem;	/* 36px */
+	--2_6rem	: 2.6rem;	/* 40px*/
+	--2_8rem	: 2.8rem;	/* 44px */
+	--3rem		: 3rem;
+	--3_3rem	: 3.3rem;	/* 55px */
+	--3_5rem	: 3.5rem;	/* 60px */
+	--4rem		: 4rem;		/* 80px */
+	--5rem		: 5rem;		/* 100px */
+	--8rem		: 8rem;
+
+	--100vh		: 100vh;
+	--75vh		: 75vh;
+	--50vh		: 50vh;
+	--25vh		: 25vh;
+	--15vh		: 15vh;
+
+	--0deg		: 0deg;
+	--45deg		: 45deg;
+	--135deg	: 135deg;
+
+	--100perc	: 100%;
+	--90perc	: 90%;
+	--80perc	: 80%;
+	--75perc	: 75%;
+	--70perc	: 70%;
+	--50perc	: 50%;
+	--40perc	: 40%;
+	--25perc	: 25%;
+	--2perc		: 2%;
+
+	--0_707		: .707;
+	--0_96		: .96;
+	--0_98		: .98;
+
+	--font_family: '__Lato', '__Montserrat', '__Roboto', '__Spartan', '__FontAwesome_Regular', '__FontAwesome__Duotone', Verdana, Arial;
+
+	--color_black		: rgba( 0, 0, 0, 1 ); /* #000000 rgb(0, 0, 0)*/
+	--color_black_0_9	: rgba( 0, 0, 0, .9 );
+	--color_black_0_7	: rgba( 0, 0, 0, .7 );
+	--color_black_0_5	: rgba( 0, 0, 0, .5 );
+	--color_black_0_3	: rgba( 0, 0, 0, .3 );
+	--color_black_0_2	: rgba( 0, 0, 0, .2 );
+
+	--color_blue_dark		: rgba( 14, 47, 74, 1 ); /*#0e2f4a # rgb(14, 47, 74)*/
+	--color_blue_dark_0_9	: rgba( 14, 47, 74, .9 );
+	--color_blue_dark_0_7	: rgba( 14, 47, 74, .7 );
+	--color_blue_dark_0_5	: rgba( 14, 47, 74, .5 );
+	--color_blue_dark_0_3	: rgba( 14, 47, 74, .3 );
+	--color_blue_dark_0_2	: rgba( 14, 47, 74, .2 );
+
+	--color_blue_mid		: rgba( 24, 82, 130, 1 ); /*#185282 # rgb(24, 82, 130)*/
+	--color_blue_mid_0_9	: rgba( 24, 82, 130, .9 );
+	--color_blue_mid_0_7	: rgba( 24, 82, 130, .7 );
+	--color_blue_mid_0_5	: rgba( 24, 82, 130, .5 );
+	--color_blue_mid_0_3	: rgba( 24, 82, 130, .3 );
+	--color_blue_mid_0_2	: rgba( 24, 82, 130, .2 );
+
+	--color_blue_light		: rgba( 100, 149, 237, 1 ); /*#6485ed # rgb(100, 149, 237)*/
+	--color_blue_light_0_9	: rgba( 100, 149, 237, .9 );
+	--color_blue_light_0_7	: rgba( 100, 149, 237, .7 );
+	--color_blue_light_0_5	: rgba( 100, 149, 237, .5 );
+	--color_blue_light_0_3	: rgba( 100, 149, 237, .3 );
+	--color_blue_light_0_2	: rgba( 100, 149, 237, .2 );
+
+	--color_blue_gray 		: rgba( 52, 73, 94, 1 ); /* #34495e rgb(52, 73, 94) */
+	--color_blue_gray_0_9	: rgba( 52, 73, 94, .9 );
+	--color_blue_gray_0_7	: rgba( 52, 73, 94, .7 );
+	--color_blue_gray_0_5	: rgba( 52, 73, 94, .5 );
+	--color_blue_gray_0_3	: rgba( 52, 73, 94, .3 );
+	--color_blue_gray_0_2	: rgba( 52, 73, 94, .2 );
+
+	--color_blue_gray_mid 		: rgba( 85, 143, 184, 1 ); /* #5590fc rgb(85, 143, 184) */
+	--color_blue_gray_mid_0_9	: rgba( 85, 143, 184, .9 );
+	--color_blue_gray_mid_0_7	: rgba( 85, 143, 184, .7 );
+	--color_blue_gray_mid_0_5	: rgba( 85, 143, 184, .5 );
+	--color_blue_gray_mid_0_3	: rgba( 85, 143, 184, .3 );
+	--color_blue_gray_mid_0_2	: rgba( 85, 143, 184, .2 );
+
+	--color_brown_mid		: rgba( 160, 82, 45, 1 ); /* #a0522d rgb(160, 82, 45)*/
+	--color_brown_mid_0_9	: rgba( 160, 82, 45, .9 );
+	--color_brown_mid_0_7	: rgba( 160, 82, 45, .7 );
+	--color_brown_mid_0_5	: rgba( 160, 82, 45, .5 );
+	--color_brown_mid_0_3	: rgba( 160, 82, 45, .3 );
+	--color_brown_mid_0_2	: rgba( 160, 82, 45, .2 );
+
+	--color_gray_light		: rgba( 166, 166, 166, 1 ); /*#a6a6a6; rgb(166, 166, 166)*/
+	--color_gray_light_0_9	: rgba( 166, 166, 166, .9 );
+	--color_gray_light_0_7	: rgba( 166, 166, 166, .7 );
+	--color_gray_light_0_5	: rgba( 166, 166, 166, .5 );
+	--color_gray_light_0_3	: rgba( 166, 166, 166, .3 );
+	--color_gray_light_0_2	: rgba( 166, 166, 166, .2 );
+
+	--color_gray_dark		: rgba( 94, 94, 94, 1 ); /* #5e5e5e rgb(94, 94, 94) */
+	--color_gray_dark_0_9	: rgba( 94, 94, 94, .9 );
+	--color_gray_dark_0_7	: rgba( 94, 94, 94, .7 );
+	--color_gray_dark_0_5	: rgba( 94, 94, 94, .5 );
+	--color_gray_dark_0_3	: rgba( 94, 94, 94, .3 );
+	--color_gray_dark_0_2	: rgba( 94, 94, 94, .2 );
+
+	--color_green_dark		: rgba( 0, 87, 87, 1 ); /* #005757 rgba(0, 87, 87) */
+	--color_green_dark_0_9	: rgba( 0, 87, 87, .9 );
+	--color_green_dark_0_7 	: rgba( 0, 87, 87, .7 );
+	--color_green_dark_0_5	: rgba( 0, 87, 87, .5 );
+	--color_green_dark_0_3	: rgba( 0, 87, 87, .3 );
+	--color_green_dark_0_2	: rgba( 0, 87, 87, .2 );
+
+	--color_green_light		: rgba( 94, 180, 177, 1 ); /* #5eb4b1 rgb(94, 180, 177)*/
+	--color_green_light_0_9	: rgba( 94, 180, 177, .9 );
+	--color_green_light_0_7	: rgba( 94, 180, 177, .7 );
+	--color_green_light_0_5	: rgba( 94, 180, 177, .5 );
+	--color_green_light_0_3	: rgba( 94, 180, 177, .3 );
+	--color_green_light_0_2	: rgba( 94, 180, 177, .2 );
+
+	--color_gunmetal		: rgba( 44, 53, 57, 1 ); /*#2c3539; rgb(44, 53, 57) */
+	--color_gunmetal_0_9	: rgba( 44, 53, 57, .9 );
+	--color_gunmetal_0_7	: rgba( 44, 53, 57, .7 );
+	--color_gunmetal_0_5	: rgba( 44, 53, 57, .5 );
+	--color_gunmetal_0_3	: rgba( 44, 53, 57, .3 );
+	--color_gunmetal_0_2	: rgba( 44, 53, 57, .2 );
+
+	--color_iridium		: rgba( 60, 61, 58, 1 ); /* #3d3c3a rgb(60, 61, 58) */
+	--color_iridium_0_9	: rgba( 60, 61, 58, .9 );
+	--color_iridium_0_7	: rgba( 60, 61, 58, .7 );
+	--color_iridium_0_5	: rgba( 60, 61, 58, .5 );
+	--color_iridium_0_3	: rgba( 60, 61, 58, .3 );
+	--color_iridium_0_2	: rgba( 60, 61, 58, .2 );
+
+	--color_marble_blue		: rgba( 86, 109, 126, 1 ); /* #566d7e rgb( 86, 109, 126 ) */
+	--color_marble_blue_0_9	: rgba( 86, 109, 126, .9 );
+	--color_marble_blue_0_7 : rgba( 86, 109, 126, .7 );
+	--color_marble_blue_0_5	: rgba( 86, 109, 126, .5 );
+	--color_marble_blue_0_3	: rgba( 86, 109, 126, .3 );
+	--color_marble_blue_0_2	: rgba( 86, 109, 126, .2 );
+
+	--color_orange_dark		: rgba( 195, 88, 23, 1 ); /* #c35817 rgb(195, 88, 23) */
+	--color_orange_dark_0_9	: rgba( 195, 88, 23, .9 );
+	--color_orange_dark_0_7 : rgba( 195, 88, 23, .7 );
+	--color_orange_dark_0_5	: rgba( 195, 88, 23, .5 );
+	--color_orange_dark_0_3	: rgba( 195, 88, 23, .3 );
+	--color_orange_dark_0_2	: rgba( 195, 88, 23, .2 );
+
+	--color_orange_light		: rgba( 244, 141, 60, 1 ); /* #e08d3c rgb(244, 141, 60) */
+	--color_orange_light_0_9	: rgba( 244, 141, 60, .9 );
+	--color_orange_light_0_7	: rgba( 244, 141, 60, .7 );
+	--color_orange_light_0_5	: rgba( 244, 141, 60, .5 );
+	--color_orange_light_0_3	: rgba( 244, 141, 60, .3 );
+	--color_orange_light_0_2	: rgba( 244, 141, 60, .2 );
+
+	--color_red_dark		: rgba( 139, 0, 0, 1 ); /* #8b0000 rgb(139, 0, 0) */
+	--color_red_dark_0_9	: rgba( 139, 0, 0, .9 );
+	--color_red_dark_0_7	: rgba( 139, 0, 0, .7 );
+	--color_red_dark_0_5	: rgba( 139, 0, 0, .5 );
+	--color_red_dark_0_3	: rgba( 139, 0, 0, .3 );
+	--color_red_dark_0_2	: rgba( 139, 0, 0, .2 );
+
+	--color_red_mid		: rgba( 229, 96, 104, 1 ); /* #dc6171 rgb(220, 97, 113)*/
+	--color_red_mid_0_9	: rgba( 229, 96, 104, .9 );
+	--color_red_mid_0_7	: rgba( 229, 96, 104, .7 );
+	--color_red_mid_0_5	: rgba( 229, 96, 104, .5 );
+	--color_red_mid_0_3	: rgba( 229, 96, 104, .3 );
+	--color_red_mid_0_2	: rgba( 229, 96, 104, .2 );
+
+	--color_red_light		: rgba( 255, 128, 128, 1 ); /* #ec576b rgb(236, 87, 107) */
+	--color_red_light_0_9	: rgba( 255, 128, 128, .9 );
+	--color_red_light_0_7	: rgba( 255, 128, 128, .7 );
+	--color_red_light_0_5	: rgba( 255, 128, 128, .5 );
+	--color_red_light_0_3	: rgba( 255, 128, 128, .3 );
+	--color_red_light_0_2	: rgba( 255, 128, 128, .2 );
+
+	--color_slate_grey		: rgba( 39, 56, 60, 1 ); /* #25383c rgb(39, 56, 60) */
+	--color_slate_grey_0_9	: rgba( 39, 56, 60, .9 );
+	--color_slate_grey_0_7  : rgba( 39, 56, 60, .7 );
+	--color_slate_grey_0_5	: rgba( 39, 56, 60, .5 );
+	--color_slate_grey_0_3	: rgba( 39, 56, 60, .3 );
+	--color_slate_grey_0_2	: rgba( 39, 56, 60, .2 );
+
+	--color_yellow_light		: rgba( 240, 220, 130, 1 );  /* #f0dc82 rgb(240, 220, 130) */
+	--color_yellow_light_0_9	: rgba( 240, 220, 130, .9 );
+	--color_yellow_light_0_7	: rgba( 240, 220, 130, .7 );
+	--color_yellow_light_0_5 	: rgba( 240, 220, 130, .5 );
+	--color_yellow_light_0_3	: rgba( 240, 220, 130, .3 );
+	--color_yellow_light_0_2	: rgba( 240, 220, 130, .2 );
+
+	--color_yellow_mid		: rgba( 252, 194, 0, 1 );  /* #fcc200 rgb(252, 194, 0) */
+	--color_yellow_mid_0_9	: rgba( 252, 194, 0, .9 );
+	--color_yellow_mid_0_7 	: rgba( 252, 194, 0, .7 );
+	--color_yellow_mid_0_5 	: rgba( 252, 194, 0, .5 );
+	--color_yellow_mid_0_3	: rgba( 252, 194, 0, .3 );
+	--color_yellow_mid_0_2	: rgba( 252, 194, 0, .2 );
+
+	--color_yellow_dark		: rgba( 156, 124, 56, 1 );  /* #dbba00 rgb(156, 124, 56) */
+	--color_yellow_dark_0_9	: rgba( 156, 124, 56, .9 );
+	--color_yellow_dark_0_7 : rgba( 156, 124, 56, .7 );
+	--color_yellow_dark_0_5 : rgba( 156, 124, 56, .5 );
+	--color_yellow_dark_0_3	: rgba( 156, 124, 56, .3 );
+	--color_yellow_dark_0_2	: rgba( 156, 124, 56, .2 );
+
+	--color_white		: rgba( 255, 255, 255, 1 );  /* #ffffff rgb(255, 255, 255) */
+	--color_white_0_9	: rgba( 255, 255, 255, .9 );
+	--color_white_0_7	: rgba( 255, 255, 255, .7 );
+	--color_white_0_5 	: rgba( 255, 255, 255, .5 );
+	--color_white_0_3	: rgba( 255, 255, 255, .3 );
+	--color_white_0_2	: rgba( 255, 255, 255, .2 );
+
+
+	--color_blue_bright		: rgba( 0, 255, 255, 1 ); /* #00ffff rgb(0, 255, 255)*/
+	--color_green_brigh		: rgba( 0, 255, 0, 1 ); /* #00ff00 rgb(0, 255, 0)*/
+	--color_red_bright		: rgba( 255, 0, 0, 1 ); /* #ff0000 rgb(255, 0, 0) */
+	--color_yellow_bright	: rgba( 255, 247, 0, 1 ); /* #fff700 rgb(255, 247, 0) */
+
+	--button_shadow1: var( --color_white_0_3 );
+	--button_shadow2: var( --color_marble_blue );
+	--button_shadow3: var( --color_black_0_9 );
+
+	--success		: var( --color_green_light );
+	--success_hover	: var( --color_green_light_0_7 );
+	--success_active: var( --color_green_light_0_5 );
+	--success_text	: var( --color_green_dark );
+
+	--warning		: var( --color_yellow_light );
+	--warning_hover	: var( --color_yellow_mid_0_7);
+	--warning_active: var( --color_yellow_mid_0_5 );
+	--warning_text	: var( --color_orange_dark_0_9 );
+
+	--danger		: var( --color_red_light_0_9 );
+	--danger_hover	: var( --color_red_mid_0_9 );
+	--danger_active	: var( --color_red_mid_0_7 );
+	--danger_text	: var( --color_red_dark );
+
+	--info			: var( --color_blue_gray_mid );
+	--info_hover	: var( --color_blue_gray_mid_0_7 );
+	--info_active	: var( --color_blue_gray_mid_0_5 );
+	--info_text		: var( --color_blue_dark_0_9 );
+
+	--dark			: var( --color_gray_light );
+	--dark_hover	: var( --color_gray_light_0_9 );
+	--dark_active	: var( --color_gray_light_0_7 );
+	--dark_text		: var( --color_black );
+
+	--breadcrumb_hover1	: var( --color_orange_dark );
+	--breadcrumb_hover2	: var( --color_orange_light );
+	--breadcrumb_info1	: var( --color_blue_gray );
+	--breadcrumb_info2	: var( --color_blue_gray_mid );
+
+	--background_dark	: var( --color_blue_gray_0_9 );
+	--background_light  : var( --color_white_0_9 );
+
+
+	--box_shadow_dark	: 2px 2px 5px 1px var( --color_black_0_7 ),
+						  inset 2px 2px 5px 0 var( --color_white_0_5 );
+	--box_shadow_dark_Y	: 2px 1px 5px 1px var( --color_black_0_7 ),
+						  inset 2px 2px 5px 0 var( --color_white_0_5 );
+	--box_shadow_dark_focus: 1px 1px 5px 1px var( --color_black_0_7 ),
+							 inset -1px -1px 5px 0 var( --color_white_0_5 );
+
+	/*--box_shadow_mid	: 2px 2px 5px 2px var( --color_black_0_9 ),*/
+	/*   					  inset 2px 2px 5px 0 var( --color_white_0_5 );*/
+	/*--box_shadow_mid_Y	: 2px 1px 5px 2px var( --color_black_0_9 ),*/
+	/*					  inset 2px 2px 5px 0 var( --color_white_0_5 );*/
+	/*--box_shadow_mid_focus: 1px 1px 5px 2px var( --color_black_0_9 ),*/
+	/*						inset 1px 1px 5px 0 var( --color_white_0_5 );*/
+
+
+	--box_shadow_light	: var( --neg_0_3rem ) var( --neg_0_5rem ) var( --1_3rem ) var( --0_07rem ) var( --color_white ),
+				  	  var( --0_1rem) var( --0_3rem ) var( --0_55rem) var( --0_07rem ) var( --button_shadow2),
+				      inset var( --neg_0_07rem ) var( --neg_0_07rem ) var( --0_2rem ) 0 var( --button_shadow3 );
+	--box_shadow_2	: var( --0_07rem ) var( --0_2rem ) var( --0_2rem ) var( --0_07rem ) var( --button_shadow3 );
+	--box_shadow_3	: var( --neg_0_3rem ) var( --neg_0_4rem ) var( --1_3rem ) var( --0_07rem ) var( --color_marble_blue_0_2 ),
+					  var( --0_1rem) var( --0_2rem ) var( --0_2rem ) var( --0_07rem ) var( --color_marble_blue_0_5 );
+
+/*var( --0_1rem ) var( --neg_0_1rem ) var( --0_07rem ) var( --0_07rem ) var( --color_black_0_5 ),*/
+/*var( --0_2rem ) var( --neg_0_1rem ) var( --0_07rem)  var( --0_07rem ) var( --color_white_0_5 );*/
+
+
+	/* Palette Colors*/
+	--color_1: #333940; /* rgb(51, 57, 64)*/
+	--color_2: #d8dee4; /* rgb(216, 222, 228)*/
+	--color_3: #7a94a6; /* rgb(122, 148, 166)*/
+
+	--color_5: #95a6b2; /* rgb(149, 166, 178)*/
+
+	--color_11: #131728; /* rgb(19, 23, 40)*/
+	--color_12: #4b5579; /* rgb(75, 85, 121)*/
+	--color_13: #a8afc0; /* rgb(168, 175, 192)*/
+	--color_14: #607aa7; /* rgb(96, 122, 167)*/
+	--color_15: #799bc5; /* rgb(121, 155, 197)*/
+
+	--color_111: #91ceff; /* rgb(145, 206, 255)*/
+	--color_112: #78ade5; /* rgb(120, 173, 229)*/
+	--color_113: #6a99cb; /* rgb(106, 153, 203)*/
+	--color_114: #4d7cae; /* rgb(77, 124, 174)*/
+	--color_115: #375a7f; /* rgb(55, 90, 127)*/
+
+	--color_1111: #000000; /* rgb(0, 0, 0)*/
+	--color_1112: #181818; /* rgb(24, 24, 24)*/
+	--color_1113: #2cccc3; /* rgb(44, 204, 195)*/
+	--color_1114: #facd3d; /* rgb(250, 205, 61)*/
+	--color_1115: #5626c4; /* rgb(86, 38, 196)*/
+	--color_1116: #e60576; /* rgb(230, 5, 118)*/
+
+	--color_11111: #000000; /* rgb(0, 0, 0)*/
+	--color_11112: #062f4f; /* rgb(6, 47, 79)*/
+	--color_11113: #813772; /* rgb(129, 55, 114)*/
+	--color_11114: #b82601; /* rgb(184, 38, 1)*/
+
+	--color_111111: #18121e; /* rgb(24, 18, 30)*/
+	--color_111112: #233237; /* rgb(35, 50, 55)*/
+	--color_111113: #984843; /* rgb(152, 72, 67)*/
+	--color_111114: #eac67a; /* rgb(234, 198, 122)*/
+
+	--color_1111111: #4484ce; /* rgb(68, 132,206 )*/
+
+	--color_1111113: #f9cf00; /* rgb(249, 207, 0)*/
+	--color_1111114: #f19f4d; /* rgb(241, 159, 77)*/
+
+	--color_11111111: #0b3c5d; /* rgb(11, 60, 93)*/
+	--color_11111112: #328cc1; /* rgb(50, 140, 193)*/
+	--color_11111113: #d9b310; /* rgb(217, 179, 16)*/
+	--color_11111114: #1d2731; /* rgb(29, 39, 49)*/
+
+	--color_111111111: #000000; /* rgb(0, 0, 0)*/
+
+}
+
+/* ----------------------------------------------------------------- TAGs */
+/* ------------------------- BODY */
+body
+{
+	font-family: var( --font_family );
+	font-size: var( --0_9rem );
+	background-color: var( --background_light );
+}
+/* ------------------------- INPUT */
+input
+{
+	border-radius: var( --0_3rem );
+	border: none;
+	background-color: transparent;
+	padding: var( --0_9rem );
+	font-size: var( --1_3rem );
+}
+
+/* ------------------------- FOOTER */
+footer
+{
+	font-size: large;
+	/*padding: 0 var( --1_3rem );*/
+	margin-top: var( --3rem );
+	position: absolute;
+	left: 0;
+	bottom: 0;
+
+	width: var( --100perc );
+	height: var( --2_4rem );
+	line-height: var( --2_4rem );
+
+	color: var( --color_white );
+	background: linear-gradient( var( --color_blue_gray ), var( --color_blue_gray_0_9 ) );
+	-moz-background: linear-gradient( var( --color_blue_gray ), var( --color_blue_gray_0_9 ) );
+	-webkit-background: linear-gradient( var( --color_blue_gray ), var( --color_blue_gray_0_9 ) );
+	-o-background: linear-gradient( var( --color_blue_gray ), var( --color_blue_gray_0_9 ) );
+
+	vertical-align: center;
+	text-align: center;
+}
+
+footer p
+{
+	margin: 0 auto;
+}
+
+/* ----------------------------------------------------------------- BACKGROUNDS */
+.__background_dark
+{
+	background: var( --background_dark );
+}
+.__background_light
+{
+	background: var( --background_light );
+}
+
+/* ----------------------------------------------------------------- CONTAINERS */
+#OH_main_container
+{
+	position: relative;
+	min-height: var( --100vh );
+}
+
+.__main_section
+{
+	display: block;
+	padding-bottom: var( --2_4rem );
+}
+
+.__container
+{
+	display: flex;
+	height: var( --50perc );
+	align-items: center;
+	justify-content: center;
+	/*background: var( --background_dark );*/
+	/*background-size: cover;*/
+}
+
+/* ---------------------- BUTTON - CONTAINER */
+.__btn_container
+{
+	width: fit-content;
+	margin: var( --2_2rem ) auto;
+}
+
+/* ---------------------- DRAG & DROP - CONTAINER */
+#OH_drag_and_drop_container
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: var( --3rem ) auto;
+}
+
+/* ----------------------------------------------------------------- ALERT MESSAGES */
+.__alert_msg
+{
+	display: block;
+	position: relative;
+	width: var( --50perc );
+	margin: var( --2rem ) auto;
+	text-align: center;
+	box-shadow: var( --box_shadow_dark );
+}
+.__alert_msg_danger
+{
+	color: var( --color_red_dark );
+	background: var( --color_red_dark_0_3 );
+}
+.__alert_msg_warning
+{
+	color: var( --color_yellow_dark );
+	background: var( --color_yellow_dark_0_3 );
+}
+.__alert_msg_success
+{
+	color: var( --color_green_dark );
+	background: var( --color_green_dark_0_3 );
+}
+.__alert_.msg_dark
+{
+	color: var( --color_black );
+	background: var( --color_black_0_3 );
+}
+.__alert_msg_info
+{
+	color: var( --color_blue_dark );
+	background: var( --color_blue_mid_0_3 );
+}
+
+/* ----------------------------------------------------------------- NAVBAR */
+.navbar-dark
+{
+	color: var( --color_black_0_9 );
+	background: transparent;
+}
+.nav-item
+{
+	margin-top: 0;
+	padding-top: var( --0_55rem );
+	padding-bottom: var( --0_3rem );
+	width: var( --8rem );
+	height: var( --5rem );
+	background: var( --color_gray_light_0_5 );
+	border: 1px solid var( --color_gray_dark_0_5 );
+	box-shadow: 0 8px 6px -1px var( --color_black_0_3 ), inset 2px 2px 5px 0  var( --color_white_0_9 );
+}
+.nav-item:hover p.__high_light_line
+{
+	position: relative;
+	margin: 0 auto;
+	width: 50%;
+	height: 2px !important;
+	background-color: var( --color_green_dark );
+	border: 1px solid var( --color_blue_bright ); /*#fff;*/
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.nav-item:hover
+{
+	background: var(--color_gray_light_0_7 );
+}
+
+.__nav_item_active
+{
+	background: var( --color_gray_light_0_7 ) !important;
+	box-shadow: 0 3px 3px 0 var( --color_black_0_3 ),
+				inset 2px 2px 5px 0 var( --color_gray_dark_0_5 ) !important;
+}
+
+.nav-item span
+{
+	color: var( --color_black_0_9 );
+	display: block;
+	margin-top: 0;
+	font-size: var( --0_8rem );
+	background: transparent;
+}
+
+.__nav_item_active p.__high_light_line
+{
+	position: relative;
+	margin: 0 auto;
+	width: 50%;
+	height: 2px !important;
+	background-color: var( --color_red_dark );
+	border: 1px solid var( --color_red_bright ) !important;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.nav-item svg,
+.nav-item i
+{
+	color: var( --color_gray_light_0_9 );
+}
+
+.nav-item svg,
+.nav-item i
+{
+	filter: drop-shadow( 1px 1px 1px var( --color_black ) );
+}
+
+#OH__nav_item_users:hover svg,
+#OH__nav_item_users:hover i,
+#OH__nav_item_users.__nav_item_active svg,
+#OH__nav_item_users.__nav_item_active i
+{
+	color: var( --color_blue_light );
+}
+#OH__nav_item_groups:hover svg,
+#OH__nav_item_groups:hover i,
+#OH__nav_item_groups.__nav_item_active svg,
+#OH__nav_item_groups.__nav_item_active i
+{
+	color: var( --color_green_light_0_7 );
+}
+#OH__nav_item_cases:hover svg,
+#OH__nav_item_cases:hover i,
+#OH__nav_item_cases.__nav_item_active svg,
+#OH__nav_item_cases.__nav_item_active i
+{
+	color: var( --color_yellow_mid_0_7 );
+}
+#OH__nav_item_investigations:hover svg,
+#OH__nav_item_investigations:hover i,
+#OH__nav_item_investigations.__nav_item_active svg,
+#OH__nav_item_investigations.__nav_item_active i
+{
+	color: var( --color_orange_light_0_7 );
+}
+#OH__nav_item_settings:hover svg,
+#OH__nav_item_settings:hover i,
+#OH__nav_item_settings.__nav_item_active svg,
+#OH__nav_item_settings.__nav_item_active i
+{
+	color: var( --color_yellow_mid_0_9 );
+}
+#OH__nav_item_logout:hover svg,
+#OH__nav_item_logout:hover i,
+#OH__nav_item_logout.__nav_item_active svg,
+#OH__nav_item_logout.__nav_item_active i
+{
+	color: var( --color_red_mid_0_7 );
+}
+.nav-link
+{
+	padding: 0;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.nav-link svg,
+.nav-link i
+{
+	font-size: var( --2_4rem );
+}
+
+#OH_logo_navbar
+{
+	position: absolute;
+	top: 3px;
+	left: 0;
+
+}
+#OH_navbar
+{
+	margin-left: 3rem;
+}
+
+/* ----------------------------------------------------------------- LISTs */
+.__list_remove_decoration
+{
+	list-style: none;
+}
+
+/* ----------------------------------------------------------------- TITLE */
+.__title_smallCaps
+{
+	font-variant: small-caps;
+}
+
+/* ----------------------------------------------------------------- TEXT */
+/* ---------------------- TEXT - COLOR */
+.__text_blue_dark
+{
+	color: var( --color_blue_dark );
+}
+.__text_blue_light
+{
+	color: var( --color_blue_mid );
+}
+.__text_danger
+{
+	color: var( --color_red_mid );
+}
+.__text_danger_dark
+{
+	color: var( --color_red_dark );
+}
+.__text_dark
+{
+	color: var( --color_gunmetal_0_9 );
+}
+.__text_gray_light
+{
+	color: var( --color_gray_light );
+}
+.__text_orange_light
+{
+	color: var( --color_orange_light );
+}
+.__text_orange_dark
+{
+	color: var( --color_orange_dark );
+}
+.__text_success
+{
+	color: var( --color_green_light );
+}
+.__text_success_dark
+{
+	color: var( --color_green_dark );
+}
+.__text_white
+{
+	color: var( --color_white );
+}
+.__text_yellow_mid
+{
+	color: var( --color_yellow_mid );
+}
+
+/* ----------------------------------------------------------------- DISPLAY */
+.__display_block
+{
+	display: block;
+}
+.__display_inlineBlock
+{
+	display: inline-block;
+}
+.__display_flex
+{
+	display: flex;
+}
+.__display_inlineFlex
+{
+	display: inline-flex;
+}
+/* ----------------------------------------------------------------- MARGIN */
+.__margin_top_1rem
+{
+	margin-top: var( --1rem );
+}
+.__margin_top_2rem
+{
+	margin-top: var( --2rem );
+}
+.__margin_top_3rem
+{
+	margin-top: var( --3rem );
+}
+
+.__margin_bottom_1rem
+{
+	margin-bottom: var( --1rem );
+}
+.__margin_bottom_2rem
+{
+	margin-bottom: var( --2rem );
+}
+.__margin_bottom_3rem
+{
+	margin-bottom: var( --3rem );
+}
+
+/* ----------------------------------------------------------------- BREADCRUMB */
+.__breadcrumb
+{
+	margin-top: var( --5rem );
+	margin-left: var( --2_2rem );
+	text-align: center;
+	display: inline-block;
+	/*box-shadow: 0 0 var( --0_9rem ) var( --0_07rem ) var( --color_black_0_5 );*/
+	box-shadow: var( --box_shadow_light );
+	border-radius: var( --0_3rem );
+	overflow: hidden;
+
+	counter-reset: flag;
+}
+
+.__breadcrumb a
+{
+	text-decoration: none;
+	font-size: var( --0_9rem );
+	outline: none;
+	display: block;
+	float: left;
+	line-height: var( --2_4rem );
+	color: var( --color_white );
+	padding: 0 var( --0_7rem ) 0 var( --3_5rem );
+	background: var( --breadcrumb_info1 );
+	background: linear-gradient( var( --breadcrumb_info2 ),
+								 var( --breadcrumb_info1 ) );
+	position: relative;
+}
+
+.__breadcrumb a:first-child
+{
+	padding-left: var( --2_8rem );
+	border-radius: var( --0_3rem ) 0 0 var( --0_3rem );
+}
+
+.__breadcrumb a:first-child::before
+{
+	left: var( --0_9rem );
+}
+
+.__breadcrumb a:last-child
+{
+	border-radius: 0 var( --0_3rem ) var( --0_3rem ) 0;
+	padding-right: var( --1_3rem );
+}
+
+.__breadcrumb a.__active
+{
+	cursor: text;
+	color: var( --color_white ) !important;
+	background: var( --success_text ) !important;
+	background: linear-gradient( var( --success), var( --success_text ) ) !important;
+
+}
+
+.__breadcrumb a.__active::after
+{
+	background: var( --success_text ) !important;
+	background: linear-gradient( var( --135deg ), var( --success ), var( --success_text ) ) !important;
+}
+
+.__breadcrumb a:hover
+{
+	background: var( --breadcrumb_hover1 );
+	background: linear-gradient( var( --breadcrumb_hover2 ),
+								 var( --breadcrumb_hover1 ) );
+}
+.__breadcrumb a:hover::after
+{
+	background: var( --breadcrumb_hover1 );
+	background: linear-gradient( var( --135deg ), var( --breadcrumb_hover2 ), var( --breadcrumb_hover1 ) );
+}
+
+.__breadcrumb a::after
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: var( --neg_1rem );
+	width: var( --2_4rem );
+	height: var( --2_4rem );
+	transform: scale( var( --0_707 ) ) rotate( var( --45deg ) );
+	z-index: 1;
+	background: var( --breadcrumb_info1 );
+	background: linear-gradient( var( --135deg ),
+								 var( --breadcrumb_info2 ),
+								 var( --breadcrumb_info1 ) );
+	box-shadow: var( --0_1rem ) var( --neg_0_1rem ) var( --0_07rem ) var( --0_07rem ) var( --color_black_0_5 ),
+				var( --0_2rem ) var( --neg_0_1rem ) var( --0_07rem)  var( --0_07rem ) var( --color_white_0_5 );
+	border-radius:  0 var( --0_3rem) 0 var( --3rem );
+}
+
+.__breadcrumb a:last-child::after
+{
+	content: none;
+}
+
+.__breadcrumb a::before
+{
+	content: counter( flag );
+	counter-increment: flag;
+	border-radius: var( --100perc );
+	width: var( --1_3rem );
+	height: var( --1_3rem );
+	line-height: var( --1_3rem );
+	margin: var( --0_55rem ) 0;
+	position: absolute;
+	top: 0;
+	left: var( --1_5rem );
+	color: var( --color_white );
+	background: var( --color_gunmetal_0_9 );
+	background: linear-gradient( var( --color_black_0_5 ) , var( --color_gunmetal_0_9 ) );
+	font-size: var( --0_7rem );
+	font-weight: bold;
+}
+
+/* ----------------------------------------------------------------- BUTTON */
+.__btn
+{
+	margin-left: var( --1_3rem );
+	font-size: var( --1_3rem );
+	box-shadow: var( --box_shadow_dark );
+}
+
+.__btn:hover
+{
+	box-shadow: var( --box_shadow_dark_Y );
+}
+
+.__btn:active,
+.__btn:focus
+{
+	color: var( --color_white ) !important;
+	box-shadow: var( --box_shadow_dark_focus );
+	transform: translateY( var( --0_1rem ) );
+}
+
+/* ---------------------- BUTTON - DISABLED */
+.__btn:disabled,
+.__btn:disabled:hover
+{
+	color: var( --color_gray_dark_0_7 ) !important;
+	background: var( --color_white_0_7 );
+	border-color: var( --dark_active );
+}
+
+/* ---------------------- BUTTON - SUCCESS */
+.__btn_success
+{
+	color: var( --color_green_dark ) !important;
+	background: var( --color_green_dark_0_5 );
+	border-color: var( --success_active ) !important;
+}
+.__btn_success:hover
+{
+	background-color: var( --color_green_dark_0_3 );
+}
+.__btn_success:active,
+.__btn_success:focus
+{
+	background: var( --color_green_dark_0_7 ) !important;
+}
+
+/* ---------------------- BUTTON - WARNING */
+.__btn_warning
+{
+	color: var( --color_yellow_dark ) !important;
+	background: var( --color_yellow_light_0_9 );
+	border-color: var( --warning_active ) !important;
+}
+.__btn_warning:hover
+{
+	background: var( --color_yellow_light_0_7 );
+}
+.__btn_warning:active,
+.__btn_warning:focus
+{
+	background: var( --color_yellow_dark_0_7 ) !important;
+}
+
+/* ---------------------- BUTTON - DANGER */
+.__btn_danger
+{
+	color: var( --color_red_dark ) !important;
+	border-color: var( --danger_active ) !important;
+	background: var( --color_red_light_0_9 );
+}
+.__btn_danger:hover
+{
+	background-color: var( --color_red_light_0_7 );
+}
+.__btn_danger:active,
+.__btn_danger:focus
+{
+	background: var( --color_red_dark_0_7 ) !important;
+}
+
+/* ---------------------- BUTTON - INFO */
+.__btn_info
+{
+	color: var( --color_blue_dark ) !important;
+	border-color: var( --info_active ) !important;
+	background: var( --color_blue_mid_0_5 );
+}
+.__btn_info:hover
+{
+	background: var( --color_blue_mid_0_3 );
+}
+.__btn_info:active,
+.__btn_info:focus
+{
+	background: var( --color_blue_mid ) !important;
+}
+
+/* ---------------------- BUTTON - DARK */
+.__btn_dark
+{
+	color: var( --color_black ) !important;
+	border-color: var( --info_active ) !important;
+	background: var( --color_black_0_5 );
+}
+.__btn_dark:hover
+{
+	background: var( --color_black_0_3 );
+}
+.__btn_dark:active,
+.__btn_dark:focus
+{
+	background: var( --color_black_0_7 ) !important;
+}
+
+/* ---------------------- BUTTON - TOGGLE */
+.__toggleBox
+{
+	position: absolute;
+	/*top: 50%;*/
+	left: var( --40perc ); /*40%;*/
+	transform: translate( var( --50perc ), var( --50perc ) ); /*translate( 50%, 50% );*/
+}
+
+#OH_toggleButton
+{
+	position: relative;
+	width: var( --5rem );
+	height: var( --1_5rem );
+	-webkit-appearance: none !important;
+
+	background: linear-gradient( var( --0deg ),
+								 var( --color_red_dark_0_9 ),
+								 var( --color_red_light_0_5 ) );
+	outline: none;
+	border-radius: var( --1rem );
+
+	box-shadow: 0 0 0 var( --0_07rem ) var( --color_gunmetal ),
+				0 0 0 var( --0_1rem ) var( --color_gray_dark ),
+				inset 0 0 var( --0_3rem ) rgba(0, 0, 0, 1),
+				0 var( --0_2rem ) var( --0_3rem ) rgba(0, 0, 0, .5),
+				inset 0 0 var( --0_3rem ) rgba(0, 0, 0, .2);
+}
+
+#OH_toggleButton:checked
+{
+	background: linear-gradient( var( --0deg ),
+								 var( --color_green_dark_0_9 ),
+								 var( --color_green_light_0_5 ) );
+}
+
+#OH_toggleButton::before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: var( --2_8rem );
+	height: var( --1_5rem );
+	background: linear-gradient( var( --0deg ), var( --color_black ), var( --color_gray_dark ) );
+	border-radius: var( --1_3rem );
+	box-shadow: 0 0 0 var( --0_07rem ) var( --color_black_0_7 );
+	transform: scale( var( --0_98 ), var( --0_96 ) );
+	transition: .5s;
+}
+
+#OH_toggleButton:checked::before
+{
+	left: var( --2_2rem );
+}
+
+#OH_toggleButton::after
+{
+	content: '' !important;
+	position: absolute;
+	top: calc( var( --50perc ) - var( --0_1rem ) );
+	left: var( --2rem );
+	width: var( --0_3rem );
+	height: var( --0_3rem );
+	background: var( --danger );
+	box-shadow: 0 0 var( --0_1rem ) var( --color_white ),
+				0 0 var( --0_3rem ) var( --danger_text ),
+				0 0 var( --0_55rem ) var( --danger_text );
+	border-radius: var( --50perc );
+	transition: .5s;
+}
+
+#OH_toggleButton:checked::after
+{
+	left: var( --4rem );
+	background: var( --success );
+	box-shadow: 0 0 var( --0_1rem ) var( --color_white ),
+				0 0 var( --0_3rem ) var( --success_text )
+				0 0 var( --0_55rem ) var( --success_text );
+}
+
+.__onBtn,
+.__offBtn
+{
+	position: relative;
+	top: var( --neg_0_4rem );
+	font-size: var( --1_1rem );
+	margin: 0 var( --0_3rem );
+}
+
+.__offBtn
+{
+	left: var( --neg_15_5rem ); /*left: -17.2rem;*/
+	color: var( --color_red_dark );
+}
+
+.__onBtn
+{
+	color: var( --success );
+}
+#OH_toggleButton:checked ~ .__onBtn
+{
+	color: var( --success_text ); /*green !important;*/
+	font-weight: bold !important;
+}
+#OH_toggleButton:checked ~ .__offBtn
+{
+	color: var( --danger ) !important;
+	font-weight: bold !important;
+}
+
+/* ---------------------- BUTTON - STATUS */
+.__user_status_item
+{
+	opacity: var( --50perc);
+}
+.__user_status_item:hover,
+.__user_status_item input:hover,
+.__user_status_item label:hover
+{
+	cursor: pointer;
+	opacity: var( --75perc );
+}
+
+.__user_status_item.__active
+{
+	opacity: var( --100perc );
+}
+
+.__user_status_item input
+{
+	display: none;
+}
+
+.__user_status_item label
+{
+	position: relative;
+	left: 0;
+}
+
+.__circle
+{
+	--fa-primary-color: var( --color_white );
+	--fa-primary-opacity: var( --100perc );
+	--fa-secondary-opacity: var( --100perc );
+	font-size: var( --1_5rem );
+	display: inline-block;
+	position: relative;
+	left: 0;
+	top: var( --0_1rem );
+}
+
+/* ----------------------------------------------------------------- FORM - LOGIN - SHOW/HIDE PASSWORD */
+#OH_login
+{
+	/*background: var( --color_marble_blue ) url('../images/OH2.png') no-repeat center;*/
+	/*background-size: contain;*/
+	/*position: relative;*/
+}
+.__inputForm
+{
+	display: block;
+	margin-top: var( --2perc );
+	width: var( --40perc );
+	/*background-color: var( --color_white );*/
+	/*opacity: .75;*/
+	padding: 2rem 3rem;
+	border-radius: var( --0_3rem );
+	background: var( --background_dark );
+	background-size: cover;
+	color: var( --color_white_0_9 );
+	box-shadow: var( --box_shadow_light );
+}
+
+.__inputForm input,
+.__inputForm input:active,
+.__inputForm input:focus
+{
+	background: var( --color_gray_light_0_3 );
+	color: var( --color_white_0_9 );
+}
+
+#OH__showPass
+{
+	cursor: pointer;
+	position: relative;
+	float: right;
+	font-size: var( --1_2rem );
+	top: var( --neg_2_5rem );
+	left: var( --neg_1rem );
+	color: var( --color_white_0_9 );
+}
+
+/* ---------------------- FORM - LOGIN - LABEL ANIMATION */
+.form-group
+{
+	position: relative;
+}
+
+.__input_animation
+{
+	height: var( --3_3rem );
+	position: relative;
+	padding-left: var( --1_3rem );
+	font-size: var( --1_3rem );
+	background-color: transparent;
+	outline: none;
+}
+
+label.__label_animation
+{
+	position: absolute;
+	top: var( --0_7rem );
+	left: var( --1_3rem );
+	font-size: var( --1_3rem );
+	color: var( --color_white_0_7 ); /*var(--button_shadow2);*/
+	pointer-events: none;
+	transition: all .5s;
+}
+
+.__input_animation:focus ~ label.__label_animation,
+label.__label_animation.__active
+{
+	top: var( --neg_0_7rem );
+	left: var( --0_55rem  );
+	font-size: var( --0_9rem );
+	padding: 0 var( --0_3rem );
+	background-color: var( --color_white_0_9 );
+	color: var( --color_black_0_9 );
+	/*opacity: .75;*/
+}
+
+/* ----------------------------------------------------------------- DRAG && DROP
+ */
+#OH_drag_container,
+#OH_drop_container,
+#OH_arrow
+{
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	width: fit-content;
+	height: fit-content;
+}
+
+#OH_drag_container,
+#OH_drop_container
+{
+	margin: 0 auto;
+	min-height: var( --3_3rem );
+	min-width: var( --25perc );
+	padding: var( --1rem );
+	border-radius: var( --0_55rem );
+	box-shadow: var( --box_shadow_light );
+}
+
+#OH_drag_container
+{
+	margin-right: var( --1rem );
+	background: linear-gradient( var( --color_blue_gray_0_3 ),
+								 var( --color_blue_dark_0_5 ) );
+}
+#OH_drop_container
+{
+	margin-left: var( --1rem );
+	background: linear-gradient( var( --color_gunmetal_0_3 ),
+								 var( --color_gunmetal_0_5 ) );
+}
+
+#OH_drag_container_list,
+#OH_drop_container_list_coordinator,
+#OH_drop_container_list_users
+{
+	margin: 0 auto;
+	padding: 0;
+	width: var( --90perc );
+	height: fit-content;
+	min-height: var( --3rem );
+	list-style: none;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: linear-gradient( var( --color_marble_blue_0_5 ),
+								 var( --color_marble_blue_0_3 ) );
+}
+
+#OH_drag_container_list:hover,
+#OH_drop_container_list_coordinator:hover,
+#OH_drop_container_list_users:hover
+{
+	background: linear-gradient( var( --color_blue_gray_mid_0_5 ),
+								 var( --color_blue_gray_mid_0_3 ) );
+}
+
+.__drag_item
+{
+	width: var( --75perc );
+	text-align: center;
+
+	height: auto;
+	padding: var( --0_3rem );
+	border-radius: var( --0_3rem );
+	margin: var( --1_2rem ) auto;
+
+	cursor: e-resize;
+	z-index: 99;
+}
+
+.__drag_item:hover
+{
+	background: var( --color_yellow_light_0_9 );
+}

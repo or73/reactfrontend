@@ -1,0 +1,54 @@
+{
+  "short_name": "OWL & HORUS App",
+  "name": "Cases, Investigations, Data & Users App",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "159x192"
+    },
+    {
+      "src": "OH_192.png",
+      "type": "image/png",
+      "sizes": "192x138"
+    },
+    {
+      "src": "OH_192.png",
+      "type": "image/png",
+      "sizes": "192x228"
+    },
+    {
+      "src": "OH_main_192.png",
+      "type": "image/png",
+      "sizes": "192x233"
+    },
+    {
+      "src": "OWL2_512.png",
+      "type": "image/png",
+      "sizes": "493x512"
+    },
+    {
+      "src": "OH2_512.png",
+      "type": "image/png",
+      "sizes": "512x369"
+    },{
+      "src": "OH_512.png",
+      "type": "image/png",
+      "sizes": "512x607"
+    },
+    {
+      "src": "OH_main_512.png",
+      "type": "image/png",
+      "sizes": "512x620"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
